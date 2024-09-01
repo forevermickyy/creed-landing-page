@@ -6,7 +6,7 @@ import p3 from '../assets/images/p3.jpg'
 
 const Circle = () => {
   return (
-    <div className='p-4 flex justify-between mb-8'>
+    <div className='w-4/5 mx-auto pt-10 p-4 flex justify-between mb-8'>
       <div className='text-center'>
       <div className='w-16 h-16 bg-gray rounded-full overflow-hidden mx-auto mb-2 flex items-center justify-center border-4 border-double border-black'>
       <img src={p5} alt="p6" className='w-full h-full object-cover' />
